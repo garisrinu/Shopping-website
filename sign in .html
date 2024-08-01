@@ -1,0 +1,125 @@
+
+<html>
+    <head>
+        <title>Shopping website</title>
+        <link rel="stylesheet" href="website.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+      <header>
+       <div class="navbar">
+        <nav><ul>
+            <li><img src="logo2-removebg-preview.png" width="150px" height="75px"></li>
+            <!-- <li class="home">HOME</li> -->
+        <li>
+              <input placeholder="search here"></li>
+          <li>  <div>
+                <label for="s1"><span style="color: rgb(193, 230, 100);"><span class="s1">Select category</span></span></label>&nbsp;&nbsp;
+                <select id="s1" class="" style="height: 40px;border-radius: 10px; width: 50px;margin-top: 20px; margin-right: 200px;">
+                    <option >Men</option>
+                    <option>Tech</option>
+                    <option>Women</option>
+                    </select>
+            </div></li>
+          <li style="margin-top: 20px; margin-left: -150px;"><a href="" style="text-decoration: none;"><a href="sign in .html" style="text-decoration: none; color: #5e5e66;"><h3 style="color: rgb(121, 116, 111);" >Sign in</a></h3></a></li>     
+          <li style="margin-top: 20px; margin-left: 100px;"><a href="" style="text-decoration: none;"><a href="login.html" style="text-decoration: none; color: #6b6b73;"><h3 style="color: rgb(121, 116, 111);" >Login</a></h3></a></li>  
+          <i class="fa-solid fa-cart-shopping fa-xl" style="color: #888b91;padding-top: 45px;margin-left: 60px;"></i>   
+          <i class="fa-solid fa-bars fa-xl" style="color: #727278;padding-top: 45px; margin-left: 120px;"></i>
+        </nav> 
+      </header>
+
+
+<style>
+    .sri12{
+        width: 500px;
+        height: 500px;  
+        border-radius: 15px; 
+        text-align: center; 
+        margin-left: 500px;
+        margin-top: 50px;
+        /* background-color: rgba(198, 210, 20, 0.651); */
+        background-position: center;
+        background-image: url(logo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9
+        
+    }
+    .h12{
+        font-size:50px;
+        color: rgb(5, 141, 62);
+    }
+    .in{
+        height: 40px;
+        width: 300px; 
+        background-color: rgba(0, 0, 0, 0.222);  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    }
+    button{
+        width: 61%;
+        height: 50;
+        background-color: rgb(97, 12, 1);
+        text-align: center;
+    }
+    h2{
+       color: rgb(237, 247, 239);
+    }
+    .in[type="checkbox"]{
+        background-color: rgba(240, 248, 255, 0.066);
+        margin-left:-150px;
+        height: 25px;
+
+
+    }
+    .sri13{
+        color: aliceblue; 
+        /* padding-right:100; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+
+</style>
+
+    
+    <body style="background-image: url(logo2-removebg-preview.png); background-repeat: no-repeat; background-size: cover;">
+   
+
+
+
+   <form  class="sri12">
+        <form class="sri12" action="/login" method="POST">
+            <h1 class="h12"><i><b>SIGN IN</b></i></h1>
+            <h2><label for="email">Email Id</label></h2>
+            <input id="email" class="in" type="email" placeholder="Enter Email" required>
+            <h2>Password</h2>
+            <input id="password" class="in" type="password" placeholder="Enter password" required><br><br><br><br>
+            <button type="submit">LOGIN</button><br><br>
+            <div class="sri13" style="padding-right: 170px;">
+                <input id="remember" type="checkbox"> 
+                <h6>Remember</h6>
+            </div>
+            <!-- <label for="remember" style="color: #f7f7f8; padding-bottom: 250px;"><b>Remember me</b></label> -->
+        </form>
+
+</form>   
+  <!-- <footer nav bar></footer> -->
+  <footer class="footer-nav ">     <nav>
+    <ul>
+        <li><a href="#home"><i class="fa-solid fa-user fa-xl" style="color: #f7f9fd;"></i></i></a></li>
+        <li><a href="#about"><i class="fa-solid fa-bars fa-xl" style="color: #f7f7f8;"></i></a></li>
+        <li><a href="web.html"><i class="fa-solid fa-shop fa-xl" style="color: #fcfcfc;"></i></a></li>
+        <li><a href="#contact"><h3>Explore</a></li>
+          <li><a href="#contact"><h3>Categories</a></li>
+    </ul>
+
+</footer>
